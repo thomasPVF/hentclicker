@@ -9,6 +9,7 @@ const upgrade = document.getElementById("upgrade");
 clicker.onclick = () => {
   count += perClick;
   update();
+  
 };
 
 upgrade.onclick = () => {
@@ -24,3 +25,4 @@ upgrade.onclick = () => {
 function update() {
   counter.textContent = count;
 }
+// Renderizar imagen principal y texto de modelo activo en el DOM
